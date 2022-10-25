@@ -1,0 +1,26 @@
+{
+  "author": "Khoa Huynh",
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "yarn": "1.22.5",
+    "npm": "8.15.0",
+    "node": "18.7.0"
+  },
+  "bin": {
+    "crypto": "./bin/crypto.js"
+  },
+  "scripts": {
+    "rm": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "csv-parse": "^5.3.1",
+    "csv-parser": "^3.0.0",
+    "request": "^2.88.2",
+    "store": "^2.0.12"
+  }
+}
